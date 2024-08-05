@@ -1,3 +1,4 @@
+import React from 'react';
 import React, { useState } from 'react';
 
 const SearchBar = ({ data }) => {
@@ -27,20 +28,5 @@ const SearchBar = ({ data }) => {
     </div>
   );
 };
-
-  const documents = [
-    { id: 1, title: 'Document 1', format: 'PDF' },
-    { id: 2, title: 'Document 2', format: 'DOCX' },
-    // more documents...
-  ];
-  
-  const handleSearch = (query) => {
-    const results = documents.filter((doc) => 
-      doc.title.toLowerCase().includes(query.toLowerCase()) ||
-      doc.format.toLowerCase().includes(query.toLowerCase())
-    );
-    setResults(results);
-  };
-
 
 export default SearchBar;
