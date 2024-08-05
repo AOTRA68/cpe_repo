@@ -6,8 +6,18 @@ import Signup from "./pages/Signup";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Footer from "./Components/Footer";
+import React from 'react';
+import SearchBar from './SearchBar';
 
+const data = ['Apple', 'Banana', 'Cherry', 'Orange'];
 
+function App() {
+  return (
+    <div className="App">
+      <SearchBar data={data} />
+    </div>
+  );
+}
 const App = () => (
     <>
       <Router>
