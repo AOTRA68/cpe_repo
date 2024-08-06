@@ -24,9 +24,7 @@ export default function Nav() {
           Login/Sign Up
         </Navbar.Link>
       </Navbar.Collapse>
-      <div className=' w-10'>
-        
-      </div>
+      {/* <div className=' w-10'></div> */}
     </Navbar>
     </>
   )

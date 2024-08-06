@@ -1,4 +1,3 @@
-import React from 'react';
 import React, { useState } from 'react';
 
 const SearchBar = ({ data }) => {
@@ -25,7 +24,7 @@ const SearchBar = ({ data }) => {
           <li key={index}>{item}</li>
         ))}
       </ul>
-    </div>
+    </div>          
   );
 };
 
