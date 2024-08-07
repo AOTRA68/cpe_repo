@@ -14,3 +14,4 @@ export default {
     flowbite.plugin(),
   ],
 }
+module.exports = { plugins: [require('flowbite-react/tailwind')] };

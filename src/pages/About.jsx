@@ -34,7 +34,7 @@ ${" "}`;
 
   return (
     <div className=" container relative justify-center mx-auto align-middle">
-      <img src="images/haseeb-modi-LKySOH0mr38-unsplash.jpg" alt="Banner" className="mx-auto object-cover" />
+      <img src="images/download.jpeg" alt="Banner" className="mx-auto object-cover" />
         <div style={{ maxHeight: '70%' }} className="overflow-hidden"></div>
         <a href="#">
     <h5 class="mb-2 text-2xl font-sans tracking-tight font-extrabold text-blue-700 dark:text-white">ABOUT DEPARTMENT</h5></a>

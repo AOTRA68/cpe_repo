@@ -6,8 +6,8 @@ import Signup from "./pages/Signup";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Footer from "./Components/Footer";
-import SearchBar from "./Components/SearchBar";
-import chatbot from "./pages/chatbot";
+import chatRoom from "./pages/chatRoom";
+
 
 
 const App = () => (
