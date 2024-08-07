@@ -1,18 +1,16 @@
 import React from 'react'
+import SearchBar from '../Components/SearchBar';
 
 function Projects() {
   return (
 
-    <div className="container mx-auto">
+    <div className="container mx-auto flex-auto justify-center">
       <header className="bg-blue-500 text-white p-4">
-        <h1 className="text-2xl font-bold">Title of the Research Paper</h1>
-        <p>Your Name</p>
+        <h1 className="text-2xl font-bold font-sans"> DESIGN OF WEB-BASED PROJECT REPOSITORY WITH CHATBOT </h1>
+        <p className='font-sans'>John Doe</p>
         <nav className="flex justify-center space-x-4">
           <a href="#abstract">Abstract</a>
-          <a href="#introduction">Introduction</a>
           <a href="#methodology">Methodology</a>
-          <a href="#results">Results</a>
-          <a href="#discussion">Discussion</a>
           <a href="#conclusion">Conclusion</a>
         </nav>
       </header>
